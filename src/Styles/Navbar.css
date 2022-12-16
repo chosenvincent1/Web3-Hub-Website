@@ -1,0 +1,15 @@
+
+.nav-link-container {
+    font-family: 'Inter';
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-link-container > a {
+    font-size: 1.3rem;
+    margin: 0 30px;
+    color: var(--purple);
+}
