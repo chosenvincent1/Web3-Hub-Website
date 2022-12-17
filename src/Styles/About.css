@@ -1,0 +1,51 @@
+
+.about-page {
+    background-color: var(--white);
+    /* background-color: red; */
+    font-family: 'Inter';
+    padding-block: 50px;
+}
+
+.about-header-text {
+    text-align: center;
+    text-transform: capitalize;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.text-img-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+.about-text-container {
+    max-width: 600px;
+    background-color: #383838;
+    color: var(--white);
+    padding: 20px;
+    height: fit-content;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.text-title {
+    margin-bottom: 20px;
+}
+
+.about-body {
+    line-height: 25px;
+    text-align: justify;
+}
+.about-img-container {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    margin-top: 10%;
+}
+
+.about-img {
+    height: 400px;
+}

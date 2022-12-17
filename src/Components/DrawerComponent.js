@@ -7,7 +7,7 @@ import {
     IconButton,
 } from "@mui/material";
 import { Link } from "react-router-dom";
-import { FaHamburger } from 'react-icons/fa'
+import { FaBars } from 'react-icons/fa'
 
 const DrawerComponent = () => {
     const styles = {
@@ -51,7 +51,7 @@ const DrawerComponent = () => {
                     <ListItem sx={styles.links}>
                         <ListItemText onClick={handleDrawerChange}>
                             <Link
-                                to=""
+                                to="/"
                                 className="drawer-link active-drawer-link"
                             >
                                 Home
@@ -67,7 +67,7 @@ const DrawerComponent = () => {
                     </ListItem>
                     <ListItem sx={styles.links}>
                         <ListItemText >
-                            <Link to="" className="drawer-link">
+                            <Link to="/about" className="drawer-link">
                                 About
                             </Link>
                         </ListItemText>
@@ -85,7 +85,7 @@ const DrawerComponent = () => {
                 sx={styles.iconBtn}
                 onClick={() => setOpenDrawer(!openDrawer)}
             >
-                <FaHamburger style={{color: 'white'}} />
+                <FaBars style={{color: 'white'}} />
             </IconButton>
         </div>
     );

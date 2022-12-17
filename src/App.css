@@ -3,6 +3,10 @@
   src: url(/public/Fonts/Inter/Inter-SemiBold.ttf);
 }
 
+:root {
+  --white: #f5f5ff;
+}
+
 * {
   margin: 0;
   padding: 0;

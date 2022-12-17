@@ -30,9 +30,9 @@ const Navbar = ()=> {
                         <DrawerComponent />
                     ) : (
                         <div className='nav-link-container'>
-                            <Link to='' className='nav-link'>Home</Link>
+                            <Link to='/' className='nav-link'>Home</Link>
                             <Link to='' className='nav-link'>Services</Link>
-                            <Link to='' className='nav-link'>About</Link>
+                            <Link to='/about' className='nav-link'>About</Link>
                             <Link to='' className='nav-link'>Contact Us</Link>
                         </div>
                     )}
