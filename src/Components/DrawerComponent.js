@@ -7,7 +7,7 @@ import {
     IconButton,
 } from "@mui/material";
 import { Link } from "react-router-dom";
-import { FaFacebook } from 'react-icons/fa'
+import { FaHamburger } from 'react-icons/fa'
 
 const DrawerComponent = () => {
     const styles = {
@@ -26,7 +26,7 @@ const DrawerComponent = () => {
             color: "black",
         },
     };
-    const [openDrawer, setOpenDrawer] = useState(true);
+    const [openDrawer, setOpenDrawer] = useState(false);
 
     const handleDrawerChange = () => {
         setOpenDrawer(false);
@@ -49,7 +49,7 @@ const DrawerComponent = () => {
             >
                 <List>
                     <ListItem sx={styles.links}>
-                        <ListItemText >
+                        <ListItemText onClick={handleDrawerChange}>
                             <Link
                                 to=""
                                 className="drawer-link active-drawer-link"
@@ -59,8 +59,8 @@ const DrawerComponent = () => {
                         </ListItemText>
                     </ListItem>
                     <ListItem sx={styles.links}>
-                        <ListItemText >
-                            <Link to="/about" className="drawer-link">
+                        <ListItemText onClick={handleDrawerChange}>
+                            <Link to="" className="drawer-link">
                                 Services
                             </Link>
                         </ListItemText>
@@ -72,9 +72,9 @@ const DrawerComponent = () => {
                             </Link>
                         </ListItemText>
                     </ListItem>
-                    <ListItem sx={styles.links}>
-                        <ListItemText >
-                            <Link to="/blog" className="drawer-link">
+                    <ListItem sx={styles.contactLink}>
+                        <ListItemText onClick={handleDrawerChange}>
+                            <Link to="" className="drawer-link">
                                 Contact Us
                             </Link>
                         </ListItemText>
@@ -85,7 +85,7 @@ const DrawerComponent = () => {
                 sx={styles.iconBtn}
                 onClick={() => setOpenDrawer(!openDrawer)}
             >
-                <FaFacebook  />
+                <FaHamburger style={{color: 'white'}} />
             </IconButton>
         </div>
     );

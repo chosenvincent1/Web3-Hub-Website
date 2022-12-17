@@ -6,7 +6,6 @@ import DrawerComponent from './DrawerComponent';
 import { 
     AppBar,
     Toolbar,
-    Typography,
     useTheme,
     useMediaQuery
 } from '@mui/material';
@@ -20,11 +19,13 @@ const Navbar = ()=> {
             <AppBar
                 elevation={0}
                 position='relative'
-                sx={{padding: '0px 20px'}}
-            
+                sx={{
+                    padding: '0px 20px',
+                    background: 'none'
+                }}
             >
                 <Toolbar>
-                    <Typography variant='h4' sx={{ marginRight: 'auto'}}>Logo</Typography>
+                    <img src='./Images/web3-logo.svg' alt='Web3 Logo' className='logo'/>
                     { mobileView ? (
                         <DrawerComponent />
                     ) : (
