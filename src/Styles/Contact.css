@@ -1,0 +1,12 @@
+
+.contact {
+    display: flex;
+    background: #151515;
+    color: var(--White);
+    font-family: 'Inter';
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}

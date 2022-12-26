@@ -1,0 +1,35 @@
+
+.faq {
+    background-color: #151515;
+    color: var(--white);
+    font-family: 'Inter';
+    padding: 50px;
+}
+
+.faq-heading {
+    margin-bottom: 20px;
+}
+
+.question-answer-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.faq-image {
+    height: 300px;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    background: #383838;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.question > h1 {
+    font-size: 1.3rem;
+}
