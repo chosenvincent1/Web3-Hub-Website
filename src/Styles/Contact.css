@@ -1,12 +1,103 @@
+* {
+    box-sizing: border-box;
+}
 
 .contact {
     display: flex;
     background: #151515;
     color: var(--White);
     font-family: 'Inter';
+    justify-content: space-between;
+    padding: 50px;
+    height: 100vh;
+}
+
+.contact-us-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-us {
+    font-size: 40px;
+    color: #FEC203;
+}
+
+.follow-us {
+    font-size: 30px;
+    color: #CCCCCC;
+}
+
+.copywrite {
+    font-size: 18px;
+    color: #CCCCCC;
 }
 
 .form {
     display: flex;
     flex-direction: column;
+    
+    width: 100%;
+    color: var(--White);
+
+}
+
+.send-request {
+    margin-bottom: 50px;
+    font-size: 40px;
+    color: #CCCCCC;
+}
+
+.email-label {
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #CCCCCC;
+}
+
+.email-input {
+    height: 73px;
+    background-color: #F1F1F1;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+.email-input:focus {
+    outline: none;
+    padding: 10px;
+}
+
+.textarea-label {
+    margin-bottom: 7px;
+    color: #CCCCCC;
+    font-size: 24px;
+}
+.textarea {
+    margin-bottom: 20px;
+    height: 254px;
+    background-color: #F1F1F1;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    padding: 10px;
+}
+.textarea:focus {
+    outline: none;
+}
+
+.send-btn-container {
+    text-align: right;
+}
+
+.send-btn {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background-color: #FEC203;
+    border-radius: 8px;
+    height: 60px;
+    font-size: 24px;
+    font-family: 'Inter';
 }

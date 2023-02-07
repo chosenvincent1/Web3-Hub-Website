@@ -8,7 +8,7 @@ import {
     Toolbar,
     useTheme,
     useMediaQuery
-} from '@mui/material';
+} from '@mui/material'; 
 
 
 const Navbar = ()=> {
@@ -31,9 +31,9 @@ const Navbar = ()=> {
                     ) : (
                         <div className='nav-link-container'>
                             <Link to='/' className='nav-link'>Home</Link>
-                            <Link to='' className='nav-link'>Services</Link>
+                            <Link to='/services' className='nav-link'>Services</Link>
                             <Link to='/about' className='nav-link'>About</Link>
-                            <Link to='' className='nav-link'>Contact Us</Link>
+                            <Link to='/contact' className='nav-link'>Contact Us</Link>
                         </div>
                     )}
                     

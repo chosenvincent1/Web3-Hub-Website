@@ -1,9 +1,12 @@
 import React from 'react';
 import Navbar from '../Components/Navbar';
-import About from './About';
-import '../Styles/Home.css';
+import Team from '../Components/Team';
 import Faq from '../Components/Faq';
+import About from './About';
+import Services from './Services';
 import Contact from './Contact';
+import '../Styles/Home.css';
+
 
 const Home = ()=> {
     return (
@@ -17,6 +20,8 @@ const Home = ()=> {
             </div>
         </div>
         <About />
+        <Services />
+        <Team />
         <Faq />
         <Contact />
         </>

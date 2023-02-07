@@ -1,35 +1,50 @@
 
 .faq {
     background-color: #151515;
-    color: var(--white);
+    /* color: var(--white); */
     font-family: 'Inter';
     padding: 50px;
+    height: 100vh;
 }
 
 .faq-heading {
-    margin-bottom: 20px;
+    margin-bottom: 84px;
+    font-size: 48px;
+    color: #FEC203;
 }
 
 .question-answer-section {
     display: flex;
     justify-content: space-between;
-    padding: 20px 50px;
+}
+.image-container {
+    /* background-color: red; */
+    width: 100%;
 }
 
 .faq-image {
-    height: 300px;
+    height: 400px;
+}
+
+.question-answer-container {
+    /* background-color: green; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .question {
     display: flex;
     justify-content: space-between;
     background: #383838;
+    color: #CCCCCC;
     border-radius: 10px;
-    padding: 10px 20px;
-    width: 500px;
+    padding: 20px;
     margin-bottom: 10px;
+    font-size: 24px;
 }
-
+/* 
 .question > h1 {
     font-size: 1.3rem;
-}
+} */
