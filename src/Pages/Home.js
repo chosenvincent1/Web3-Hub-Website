@@ -15,8 +15,8 @@ const Home = ()=> {
             <Navbar />
             <div className='home-text-container'>
                 <p className='home-md-text'>welcome to web3 hub</p>
-                <h1 className='home-lg-text'>the internet of blockchain</h1>
-                <p className='home-sm-text'>I am a Web Developer and Technical writer. I have proficient knowledge in JavaScript, ReactJS, NextJS, React Native, NodeJS and Database. Aside coding, I love playing chess and discussing tech related topics with other developers.</p>
+                <h1 className='home-lg-text'>Unlocking The Potential Of The African Blockchain Ecosystem.</h1>
+                <p className='home-sm-text'>WEB3 HUB is a professional consultancy company which aims to expand the knowledge, skills and expertise of the African Blockchain ecosystem</p>
             </div>
         </div>
         <About />

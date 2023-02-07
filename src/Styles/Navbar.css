@@ -1,9 +1,12 @@
 
-
-.logo {
-    height: 100px;
+.logo-container {
     margin-right: auto;
-    color: white;
+    background-color: #151515;
+    /* padding: 10px; */
+    border-radius: 8px;
+}
+.logo {
+    height: 40px;
 }
 .nav-link-container {
     font-family: 'Inter';
@@ -15,13 +18,23 @@ a {
 }
 
 .nav-link {
-    font-size: 1rem;
-    color: white;
+    font-size: 20px;
+    color: #383838;
     margin: 0 25px;
     text-transform: uppercase;
     font-family: 'Inter';
 }
 
+.active-link {
+    color: #FEC203;
+}
+
+.contact-link {
+    background-color: #151515;
+    border-radius: 8px;
+    padding: 10px;
+    color: #FFFFFF;
+}
 
 /* DRAWER */
 .drawer-link {

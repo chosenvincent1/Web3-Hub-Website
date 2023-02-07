@@ -21,19 +21,22 @@ const Navbar = ()=> {
                 position='relative'
                 sx={{
                     padding: '0px 20px',
-                    background: 'none'
+                    background: '#f5f5f5'
                 }}
             >
                 <Toolbar>
-                    <img src='./Images/web3-logo.svg' alt='Web3 Logo' className='logo'/>
+                    <div className='logo-container'>
+                        <img src='./Images/Web3-Hub-Logo.svg' alt='Web3 Logo' className='logo'/>
+                    </div>
+                    
                     { mobileView ? (
                         <DrawerComponent />
                     ) : (
                         <div className='nav-link-container'>
-                            <Link to='/' className='nav-link'>Home</Link>
+                            <Link to='/' className='nav-link active-link'>Home</Link>
                             <Link to='/services' className='nav-link'>Services</Link>
                             <Link to='/about' className='nav-link'>About</Link>
-                            <Link to='/contact' className='nav-link'>Contact Us</Link>
+                            <Link to='/contact' className='nav-link contact-link'>Contact Us</Link>
                         </div>
                     )}
                     
