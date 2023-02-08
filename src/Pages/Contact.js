@@ -20,7 +20,7 @@ const Contact = ()=> {
 
                 <div className='send-btn-container'>
                     <button className='send-btn'>Send</button>
-                </div>
+                </div> 
             </form>
         </div>
     )
