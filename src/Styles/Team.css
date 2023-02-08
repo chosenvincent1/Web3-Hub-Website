@@ -12,7 +12,7 @@
 
 .team-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
     grid-gap: 50px;
     justify-content: space-around;
 }
@@ -39,11 +39,16 @@
     border-bottom-left-radius: 8px;
 }
 
-/* @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .team-container {
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
     }
+}
 
-
-} */
+@media only screen and (max-width: 600px) {
+    .team-container {
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+    }
+}

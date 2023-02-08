@@ -58,7 +58,7 @@ const Faq = ()=> {
                 </div>
             </div>
         </div>
-    )
+    ) 
 }
 
 export default Faq;
