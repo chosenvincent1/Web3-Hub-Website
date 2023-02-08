@@ -1,4 +1,5 @@
 
+
 .contact {
     display: flex;
     background: #151515;
@@ -86,7 +87,7 @@
 
 .send-btn-container {
     text-align: right;
-}
+} 
 
 .send-btn {
     width: 150px;
