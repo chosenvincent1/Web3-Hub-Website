@@ -2,7 +2,6 @@
 .logo-container {
     margin-right: auto;
     background-color: #151515;
-    /* padding: 10px; */
     border-radius: 8px;
 }
 .logo {
@@ -17,6 +16,18 @@ a {
     text-decoration: none;
 }
 
+.nav-link-container {
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.first-link-container {
+    /* background-color: green; */
+    margin-left: auto;
+}
+
 .nav-link {
     font-size: 20px;
     color: #383838;
@@ -29,14 +40,30 @@ a {
     color: #FEC203;
 }
 
+.contact-link-container {
+    /* background-color: yellow; */
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+
+}
+
+
 .contact-link {
     background-color: #151515;
     border-radius: 8px;
     padding: 10px;
     color: #FFFFFF;
+    margin-right: 0;
 }
 
 /* DRAWER */
 .drawer-link {
     color: white;
+}
+
+@media only screen and (max-width: 992px) {
+    .logo {
+        height: 30px;
+    }
 }

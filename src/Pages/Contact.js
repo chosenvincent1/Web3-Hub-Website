@@ -8,7 +8,7 @@ const Contact = ()=> {
                 <h1 className='contact-us'>Contact Us</h1>
                 <p className='follow-us'>Follow Us</p>
                 <div></div>
-                <p className='copywrite'>Copywrite (c) Web3 2020</p>
+                <p className='copywrite'>Copywrite &copy; Web3 2020</p>
             </div>
             <form className='form'>
                 <p className='send-request'>Send us a Message or Request</p>

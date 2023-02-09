@@ -7,7 +7,8 @@ import {
     AppBar,
     Toolbar,
     useTheme,
-    useMediaQuery
+    useMediaQuery,
+    Box
 } from '@mui/material'; 
 
 
@@ -32,11 +33,17 @@ const Navbar = ()=> {
                     { mobileView ? (
                         <DrawerComponent />
                     ) : (
+                       
                         <div className='nav-link-container'>
-                            <Link to='/' className='nav-link active-link'>Home</Link>
-                            <Link to='/services' className='nav-link'>Services</Link>
-                            <Link to='/about' className='nav-link'>About</Link>
-                            <Link to='/contact' className='nav-link contact-link'>Contact Us</Link>
+                            <div className='first-link-container'>
+                                <Link to='/' className='nav-link active-link'>Home</Link>
+                                <Link to='/services' className='nav-link'>Services</Link>
+                                <Link to='/about' className='nav-link'>About</Link>
+                            </div>
+                            <div className='contact-link-container'>
+                                <Link to='/about' className='nav-link'>FAQ</Link>
+                                <Link to='/contact' className='nav-link contact-link'>Contact Us</Link>
+                            </div>
                         </div>
                     )}
                     

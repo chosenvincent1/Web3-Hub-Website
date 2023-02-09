@@ -24,6 +24,7 @@ const DrawerComponent = () => {
         },
         iconBtn: {
             color: "black",
+            margin: '0 auto',
         },
     };
     const [openDrawer, setOpenDrawer] = useState(false);
@@ -85,7 +86,7 @@ const DrawerComponent = () => {
                 sx={styles.iconBtn}
                 onClick={() => setOpenDrawer(!openDrawer)}
             >
-                <FaBars style={{color: '#151515'}} />
+                <FaBars style={{color: '#151515', }} />
             </IconButton>
         </div>
     );
