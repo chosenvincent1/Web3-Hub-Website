@@ -3,6 +3,7 @@
 .services {
     padding: 50px;
     font-family: 'Inter';
+    background-color: var(--white);
 }
 
 .services-heading-container {

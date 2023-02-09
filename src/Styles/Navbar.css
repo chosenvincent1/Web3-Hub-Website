@@ -60,6 +60,17 @@ a {
 /* DRAWER */
 .drawer-link {
     color: white;
+    text-transform: uppercase;
+}
+
+.active-drawer-link {
+    color: #FEC203;
+}
+
+.drawer-logo {
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 992px) {

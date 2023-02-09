@@ -15,12 +15,16 @@ const DrawerComponent = () => {
             backgroundColor: "rgba(0,0,0,0.8)",
         },
         links: {
-            borderBottom: "1px solid white",
-            padding: "20px 0px",
+            marginBottom: '50px',
+            padding: '0 5px',
+            width: 'fit-content',
         },
-        contactLink: {
-            marginTop: "20px",
-            padding: "0px",
+        activeLink: {
+            color: '#FEC203',
+            borderBottom: '2px solid #FEC203',
+            marginBottom: '50px',
+            padding: '0 5px',
+            width: 'fit-content',
         },
         iconBtn: {
             color: "black",
@@ -49,7 +53,7 @@ const DrawerComponent = () => {
                 sx={styles.drawer}
             >
                 <List>
-                    <ListItem sx={styles.links}>
+                    <ListItem sx={styles.activeLink}>
                         <ListItemText onClick={handleDrawerChange}>
                             <Link
                                 to="/"
@@ -73,7 +77,7 @@ const DrawerComponent = () => {
                             </Link>
                         </ListItemText>
                     </ListItem>
-                    <ListItem sx={styles.contactLink}>
+                    <ListItem sx={styles.links}>
                         <ListItemText onClick={handleDrawerChange}>
                             <Link to="" className="drawer-link">
                                 Contact Us
@@ -81,6 +85,7 @@ const DrawerComponent = () => {
                         </ListItemText>
                     </ListItem>
                 </List>
+                <img src="../Images/Web3-Hub-Logo.svg" alt="Web3 Hub Logo" className="drawer-logo" />
             </Drawer>
             <IconButton
                 sx={styles.iconBtn}

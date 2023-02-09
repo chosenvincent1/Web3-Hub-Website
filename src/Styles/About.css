@@ -1,9 +1,8 @@
 
 .about-page {
     background-color: var(--white);
-    /* background-color: red; */
     font-family: 'Inter';
-    padding-block: 50px;
+    padding: 50px;
 }
 
 .about-header-text {
@@ -18,7 +17,6 @@
 .text-img-container {
     display: flex;
     justify-content: center;
-    padding: 0 50px;
 }
 
 .about-text-container {
@@ -49,4 +47,9 @@
         display: flex;
         flex-direction: column-reverse;
     }
+
+    .about-img {
+        display: none;
+    }
 }
+
