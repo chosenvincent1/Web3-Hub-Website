@@ -1,5 +1,8 @@
 import React from 'react';
 import '../Styles/Faq.css';
+// import { 
+//     FaFacebook,
+// } from 'react-icons/fa';
 
 const Faq = ()=> {
     return (

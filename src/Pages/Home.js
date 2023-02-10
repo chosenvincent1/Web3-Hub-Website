@@ -5,6 +5,7 @@ import Faq from '../Components/Faq';
 import About from './About';
 import Services from './Services';
 import Contact from './Contact';
+import Footer from '../Components/Footer';
 import '../Styles/Home.css';
 
 
@@ -24,6 +25,7 @@ const Home = ()=> {
         <Team />
         <Faq />
         <Contact />
+        <Footer />
         </>
     )
 }
