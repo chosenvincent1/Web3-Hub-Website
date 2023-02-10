@@ -16,12 +16,12 @@
 }
 
 .contact-us {
-    font-size: 40px;
+    font-size: 30px;
     color: #FEC203;
 }
 
 .follow-us {
-    font-size: 30px;
+    font-size: 24px;
     color: #CCCCCC;
     margin-bottom: 20px;
 }
@@ -34,6 +34,7 @@
     font-size: 30px;
     color: #F1F1F1;
     margin-right: 20px;
+    cursor: pointer;
 }
 
 .copywrite {
@@ -50,22 +51,22 @@
 
 .send-request {
     margin-bottom: 50px;
-    font-size: 40px;
+    font-size: 30px;
     color: #CCCCCC;
 }
 
 .email-label {
     margin-bottom: 5px;
-    font-size: 24px;
+    font-size: 18px;
     color: #CCCCCC;
 }
 
 .email-input {
-    height: 73px;
+    height: 60px;
     background-color: #F1F1F1;
     border: none;
     border-radius: 8px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     font-size: 1rem;
     box-sizing: border-box;
 }
@@ -77,11 +78,11 @@
 .textarea-label {
     margin-bottom: 7px;
     color: #CCCCCC;
-    font-size: 24px;
+    font-size: 18px;
 }
 .textarea {
     margin-bottom: 20px;
-    height: 254px;
+    height: 200px;
     background-color: #F1F1F1;
     border-radius: 8px;
     border: none;
@@ -100,14 +101,15 @@
 } 
 
 .send-btn {
-    width: 150px; 
+    width: 120px; 
     padding: 10px;
     border: none;
     background-color: #FEC203;
     border-radius: 8px;
-    height: 60px;
+    height: 50px;
     font-size: 24px;
     font-family: 'Inter';
+    cursor: pointer;
 }
 .mobile-copywrite {
     visibility: hidden;
