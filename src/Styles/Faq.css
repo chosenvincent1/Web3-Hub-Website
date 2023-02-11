@@ -41,6 +41,16 @@
     font-size: 24px;
 }
 
+.add-icon {
+    cursor: pointer;
+}
+
+/* .show-answer {
+    background-color: red;
+    height: 50px;
+    width: 100%;
+} */
+
 
 @media only screen and (max-width: 768px) {
     .question-answer-section {

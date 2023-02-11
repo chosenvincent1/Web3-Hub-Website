@@ -1,10 +1,13 @@
 import React from 'react';
 import '../Styles/Faq.css';
-// import { 
-//     FaFacebook,
-// } from 'react-icons/fa';
+import {
+    FaPlus,
+} from 'react-icons/fa';
 
 const Faq = ()=> {
+    
+    console.log(window.innerWidth)
+
     return (
         <div className='faq'>
             <h1 className='faq-heading'>Frequently Asked Question</h1>
@@ -14,9 +17,27 @@ const Faq = ()=> {
                 </div>
                 <div className='question-answer-container'>
                     <div className='each-question-container'>
+                        <div className='question' >
+                            <p>What is Web3 Hub?</p>
+                            <FaPlus className='add-icon' />
+                        </div>
+                        {/* <div className='answer'>
+                            <p>This is a Blockchain Company</p>
+                        </div>  */}
+                    </div>
+                    <div className='question-answer-container'>
                         <div className='question'>
                             <p>What is Web3 Hub?</p>
-                            <p>+</p>
+                            <FaPlus className='add-icon' />
+                        </div>
+                        {/* <div className='answer'>
+                            <p>This is a Blockchain Company</p>
+                        </div>  */}
+                    </div>
+                    <div className='question-answer-container'>
+                        <div className='question'>
+                            <p>What is Web3 Hub?</p>
+                            <FaPlus className='add-icon' />
                         </div>
                         {/* <div className='answer'>
                             <p>This is a Blockchain Company</p>
@@ -25,16 +46,7 @@ const Faq = ()=> {
                     <div className='question-answer-container'>
                         <div className='question'>
                             <p>What is Web3 Hub?</p>
-                            <p>+</p>
-                        </div>
-                        {/* <div className='answer'>
-                            <p>This is a Blockchain Company</p>
-                        </div> */} 
-                    </div>
-                    <div className='question-answer-container'>
-                        <div className='question'>
-                            <p>What is Web3 Hub?</p>
-                            <p>+</p>
+                            <FaPlus className='add-icon' />
                         </div>
                         {/* <div className='answer'>
                             <p>This is a Blockchain Company</p>
@@ -43,16 +55,7 @@ const Faq = ()=> {
                     <div className='question-answer-container'>
                         <div className='question'>
                             <p>What is Web3 Hub?</p>
-                            <p>+</p>
-                        </div>
-                        {/* <div className='answer'>
-                            <p>This is a Blockchain Company</p>
-                        </div> */}
-                    </div>
-                    <div className='question-answer-container'>
-                        <div className='question'>
-                            <p>What is Web3 Hub?</p>
-                            <p>+</p>
+                            <FaPlus className='add-icon' />
                         </div>
                         {/* <div className='answer'>
                             <p>This is a Blockchain Company</p>
