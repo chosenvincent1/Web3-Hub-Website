@@ -20,19 +20,25 @@
 
 .coin-image {
     position: absolute;
-    /* height: 50px; */
+    /* height: 100px; */
 }
 .bitcoin {
     top: 0;
     left: 0;
+    height: 15%;
+}
+.tether {
+    height: 30%;
 }
 .ethereum {
     top: 5%;
     left: 10%;
+    height: 15%;
 }
 .dollar {
     top: 30%;
     right: 5%;
+    height: 30%;
 }
 
 .home-md-text {
