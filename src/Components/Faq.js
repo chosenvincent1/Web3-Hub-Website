@@ -39,7 +39,7 @@ const Faq = ()=> {
                     <div className='question-answer-container'>
                         <div className='question'>
                             <p>What is Web3 Hub?</p>
-                            <FaPlus className='add-icon' />
+                            <FaPlus className='add-icon' onClick={handleClick}/>
                         </div>
                         {/* <div className='answer'>
                             <p>This is a Blockchain Company</p>
@@ -48,7 +48,7 @@ const Faq = ()=> {
                     <div className='question-answer-container'>
                         <div className='question'>
                             <p>What is Web3 Hub?</p>
-                            <FaPlus className='add-icon' />
+                            <FaPlus className='add-icon' onClick={handleClick}/>
                         </div>
                         {/* <div className='answer'>
                             <p>This is a Blockchain Company</p>
@@ -57,7 +57,7 @@ const Faq = ()=> {
                     <div className='question-answer-container'>
                         <div className='question'>
                             <p>What is Web3 Hub?</p>
-                            <FaPlus className='add-icon' />
+                            <FaPlus className='add-icon' onClick={handleClick}/>
                         </div>
                         {/* <div className='answer'>
                             <p>This is a Blockchain Company</p>
@@ -66,7 +66,7 @@ const Faq = ()=> {
                     <div className='question-answer-container'>
                         <div className='question'>
                             <p>What is Web3 Hub?</p>
-                            <FaPlus className='add-icon' />
+                            <FaPlus className='add-icon' onClick={handleClick}/>
                         </div>
                         {/* <div className='answer'>
                             <p>This is a Blockchain Company</p>

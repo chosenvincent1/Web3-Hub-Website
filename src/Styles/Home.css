@@ -1,18 +1,38 @@
 
 .home-page {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/public/Images/home-image.png') ;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/public/Images/Background.svg') ;
     background-size: cover;
 }
 
 .home-text-container {
-    height: fit-content;
-    margin-top: 10%;
+    height: 100%;
+    /* margin-top: 10%; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     font-family: 'Inter';
-    padding: 0 50px;
+    padding: 50px;
+    /* background-color: red; */
+    position: relative;
+}
+
+.coin-image {
+    position: absolute;
+    /* height: 50px; */
+}
+.bitcoin {
+    top: 0;
+    left: 0;
+}
+.ethereum {
+    top: 5%;
+    left: 10%;
+}
+.dollar {
+    top: 30%;
+    right: 5%;
 }
 
 .home-md-text {
@@ -47,7 +67,7 @@
 
     .home-lg-text {
         font-size: 40px;
-    }
+    } 
 
     .home-sm-text {
         font-size: 16px;
