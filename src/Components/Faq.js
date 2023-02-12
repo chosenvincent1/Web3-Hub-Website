@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import '../Styles/Faq.css';
 import {
     FaPlus,
@@ -6,7 +6,18 @@ import {
 
 const Faq = ()=> {
     
-    console.log(window.innerWidth)
+    useEffect(()=> {
+        console.log(window.innerWidth)
+    }, [])
+    
+
+    const [click, setClick] = useState(false)
+
+    function handleClick() {
+        setClick(!click)
+    }
+
+    // console.log(click);
 
     return (
         <div className='faq'>
@@ -19,11 +30,11 @@ const Faq = ()=> {
                     <div className='each-question-container'>
                         <div className='question' >
                             <p>What is Web3 Hub?</p>
-                            <FaPlus className='add-icon' />
+                            <FaPlus className='add-icon' onClick={handleClick}/>
                         </div>
-                        {/* <div className='answer'>
+                        { click && <div className='answer'>
                             <p>This is a Blockchain Company</p>
-                        </div>  */}
+                        </div> }
                     </div>
                     <div className='question-answer-container'>
                         <div className='question'>
