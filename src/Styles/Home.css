@@ -7,46 +7,46 @@
 
 .home-text-container {
     height: 100%;
-    /* margin-top: 10%; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-family: 'Inter';
     padding: 50px;
-    /* background-color: red; */
     position: relative;
 }
 
 .coin-image {
     position: absolute;
-    /* height: 100px; */
 }
 .bitcoin {
-    top: 0;
-    left: 0;
+    top: 5%;
+    left: 5%;
     height: 15%;
 }
+
 .tether {
+    top: 60%;
+    left: 50%;
     height: 30%;
 }
 .ethereum {
-    top: 5%;
-    left: 10%;
+    top: 30%;
+    left: 20%;
     height: 15%;
 }
 .dollar {
-    top: 30%;
+    top: 10%;
     right: 5%;
     height: 30%;
 }
-
 .home-md-text {
     text-align: center;
     color: #9C9C9C;
     font-size: 25px;
     margin-bottom: 20px;
     text-transform: capitalize;
+    z-index: 10;
 }
 .home-lg-text {
     text-align: center;
@@ -58,12 +58,14 @@
     font-size: 4rem;
     margin-bottom: 40px;
     font-weight: 700;
+    z-index: 10;
 }
 
 .home-sm-text {
     color: #9C9C9C;
     text-align: center;
     font-size: 20px;
+    z-index: 10;
 }
 
 

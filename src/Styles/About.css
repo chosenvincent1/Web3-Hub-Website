@@ -43,9 +43,15 @@
 
 
 @media only screen and (max-width: 600px) {
+    .about-page {
+        padding: 50px 20px;
+    }
     .text-img-container {
         display: flex;
         flex-direction: column-reverse;
+    }
+    .about-text-container {
+        margin-right: 0;
     }
 
     .about-img {
