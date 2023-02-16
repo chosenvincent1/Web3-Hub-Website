@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Web3-Hub-Website/static/css/main.ea77320c.css",
+    "main.js": "/Web3-Hub-Website/static/js/main.f054ef86.js",
+    "static/media/Inter-SemiBold.ttf": "/Web3-Hub-Website/static/media/Inter-SemiBold.4d56bb21f2399db8ad48.ttf",
+    "static/media/Background.svg": "/Web3-Hub-Website/static/media/Background.a2ef6ae29c46eb318eee.svg",
+    "index.html": "/Web3-Hub-Website/index.html",
+    "main.ea77320c.css.map": "/Web3-Hub-Website/static/css/main.ea77320c.css.map",
+    "main.f054ef86.js.map": "/Web3-Hub-Website/static/js/main.f054ef86.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea77320c.css",
+    "static/js/main.f054ef86.js"
+  ]
+}
