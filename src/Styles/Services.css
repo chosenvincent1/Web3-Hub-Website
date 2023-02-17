@@ -45,6 +45,9 @@
     }
 }
 @media only screen and (max-width: 600px) {
+    .services {
+        padding: 50px 20px;
+    }
     .services-container {
         display: grid;
         grid-template-columns: repeat(1, 100%);

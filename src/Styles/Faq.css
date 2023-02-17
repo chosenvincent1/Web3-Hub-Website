@@ -53,6 +53,10 @@
 
 
 @media only screen and (max-width: 768px) {
+    .faq {
+        padding: 50px 20px;
+    }
+
     .question-answer-section {
         display: flex;
         flex-direction: column;

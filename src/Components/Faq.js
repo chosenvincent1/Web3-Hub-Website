@@ -4,6 +4,10 @@ import {
     FaPlus,
 } from 'react-icons/fa';
 
+
+import faq from '../Images/faq-image.svg';
+
+
 const Faq = ()=> {
     
     useEffect(()=> {
@@ -24,7 +28,7 @@ const Faq = ()=> {
             <h1 className='faq-heading'>Frequently Asked Question</h1>
             <div className='question-answer-section'>
                 <div className='image-container'>
-                    <img src='./Images/faq-image.svg' alt='Man Standing' className='faq-image' />
+                    <img src={faq} alt='Man Standing' className='faq-image' />
                 </div>
                 <div className='question-answer-container'>
                     <div className='each-question-container'>

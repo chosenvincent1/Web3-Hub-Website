@@ -72,6 +72,9 @@
 
 /* MOBILE VIEW */
 @media only screen and (max-width: 600px) {
+    .home-text-container {
+        padding: 50px 20px;
+    }
 
     .home-lg-text {
         font-size: 40px;
@@ -79,5 +82,27 @@
 
     .home-sm-text {
         font-size: 16px;
+    }
+
+    .bitcoin {
+        top: 5%;
+        left: 5%;
+        height: 10%;
+    }
+    
+    .tether {
+        top: 60%;
+        left: 50%;
+        height: 20%;
+    }
+    .ethereum {
+        top: 30%;
+        left: 20%;
+        height: 10%;
+    }
+    .dollar {
+        top: 10%;
+        right: 5%;
+        height: 20%;
     }
 }

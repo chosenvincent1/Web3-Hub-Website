@@ -3,7 +3,6 @@
     font-family: 'Inter';
     padding: 50px;
     background-color: #f5f5ff;
-    /* height: 100vh; */
 }
 
 .team-heading-container {
@@ -48,6 +47,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .team {
+        padding: 50px 20px;
+    }
     .team-container {
         display: grid;
         grid-template-columns: repeat(1, 100%);

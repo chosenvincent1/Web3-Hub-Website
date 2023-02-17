@@ -1,6 +1,8 @@
 import React from "react";
 import '../Styles/Team.css';
 
+import member from '../Images/Member.svg';
+
 const Team = ()=> {
     return (
         <div className="team">
@@ -10,27 +12,27 @@ const Team = ()=> {
             </div>
             <div className="team-container">
                 <div className="each-team-container">
-                    <img src="../Images/Member.svg" alt="Web Developer"/>
+                    <img src={member} alt="Web Developer"/>
                     <h3>Web Developer</h3>
                 </div>
                 <div className="each-team-container">
-                    <img src="../Images/Member.svg" alt="Web Developer"/>
+                    <img src={member} alt="Web Developer"/>
                     <h3>Web Developer</h3>
                 </div>
                 <div className="each-team-container">
-                    <img src="../Images/Member.svg" alt="Web Developer"/>
+                    <img src={member} alt="Web Developer"/>
                     <h3>Web Developer</h3>
                 </div>
                 <div className="each-team-container">
-                    <img src="../Images/Member.svg" alt="Web Developer"/>
+                    <img src={member} alt="Web Developer"/>
                     <h3>Web Developer</h3>
                 </div>
                 <div className="each-team-container">
-                    <img src="../Images/Member.svg" alt="Web Developer"/>
+                    <img src={member} alt="Web Developer"/>
                     <h3>Web Developer</h3>
                 </div>
                 <div className="each-team-container">
-                    <img src="../Images/Member.svg" alt="Web Developer"/>
+                    <img src={member} alt="Web Developer"/>
                     <h3>Web Developer</h3>
                 </div>
             </div>

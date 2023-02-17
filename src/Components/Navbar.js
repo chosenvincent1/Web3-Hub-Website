@@ -10,6 +10,8 @@ import {
     useMediaQuery,
 } from '@mui/material'; 
 
+import web3 from '../Images/Web3-Hub-Logo.svg';
+
 
 const Navbar = ()=> {
     const theme = useTheme();
@@ -20,13 +22,13 @@ const Navbar = ()=> {
                 elevation={0}
                 position='relative'
                 sx={{
-                    padding: '0px 20px',
+                    // padding: '0px 10px',
                     background: '#f5f5f5'
                 }}
             >
                 <Toolbar>
                     <div className='logo-container'>
-                        <img src='./Images/Web3-Hub-Logo.svg' alt='Web3 Logo' className='logo'/>
+                        <img src={web3} alt='Web3 Logo' className='logo'/>
                     </div>
                     
                     { mobileView ? (
