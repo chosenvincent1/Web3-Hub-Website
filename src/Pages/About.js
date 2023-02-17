@@ -1,6 +1,8 @@
 import React from 'react';
 import '../Styles/About.css';
 
+import aboutImage from '../Images/about-image.png';
+
 const About = ()=> {
     return (
         <div className='about-page'>
@@ -16,7 +18,7 @@ const About = ()=> {
                     </p>
                 </div>
                 <div className='about-img-container'>
-                    <img src='../Images/about-image.png' alt='About Image' className='about-img' />
+                    <img src={aboutImage} alt='About' className='about-img' />
                 </div>
             </div>
         </div>
