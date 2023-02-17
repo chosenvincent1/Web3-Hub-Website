@@ -1,15 +1,25 @@
 {
   "files": {
-    "main.css": "/Web3-Hub-Website/static/css/main.ea77320c.css",
-    "main.js": "/Web3-Hub-Website/static/js/main.a5b52b70.js",
+    "main.css": "/Web3-Hub-Website/static/css/main.bcf3cd85.css",
+    "main.js": "/Web3-Hub-Website/static/js/main.8972adba.js",
+    "static/media/Member.svg": "/Web3-Hub-Website/static/media/Member.c96e1e4305da970ac5e2a9d37562be79.svg",
+    "static/media/about-image.png": "/Web3-Hub-Website/static/media/about-image.b1af8ed4f238b6d365a4.png",
+    "static/media/Footer-Logo.svg": "/Web3-Hub-Website/static/media/Footer-Logo.16ec1afeee6cf37a5feaabb73d3e594c.svg",
+    "static/media/Web3-Hub-Logo.svg": "/Web3-Hub-Website/static/media/Web3-Hub-Logo.3af9b195490b221bc0bba56996632198.svg",
     "static/media/Inter-SemiBold.ttf": "/Web3-Hub-Website/static/media/Inter-SemiBold.4d56bb21f2399db8ad48.ttf",
     "static/media/Background.svg": "/Web3-Hub-Website/static/media/Background.a2ef6ae29c46eb318eee.svg",
+    "static/media/faq-image.svg": "/Web3-Hub-Website/static/media/faq-image.24670c5e0c5d126345fc30c13a6437e9.svg",
+    "static/media/Footer-Web3-Hub.svg": "/Web3-Hub-Website/static/media/Footer-Web3-Hub.69931d003a115cc716b6f0daa8a16fcd.svg",
+    "static/media/Dollar.svg": "/Web3-Hub-Website/static/media/Dollar.8e90a351cd67d7d328fd6d6319a29e71.svg",
+    "static/media/Bitcoin.svg": "/Web3-Hub-Website/static/media/Bitcoin.f1cc6697ef8023bb8713619614af8119.svg",
+    "static/media/Tether.svg": "/Web3-Hub-Website/static/media/Tether.bc8bdeb8d64404578fd1d34620ba7562.svg",
+    "static/media/Ethereum.svg": "/Web3-Hub-Website/static/media/Ethereum.c5ec9c35b5752189b2c91bec3ae0ffb7.svg",
     "index.html": "/Web3-Hub-Website/index.html",
-    "main.ea77320c.css.map": "/Web3-Hub-Website/static/css/main.ea77320c.css.map",
-    "main.a5b52b70.js.map": "/Web3-Hub-Website/static/js/main.a5b52b70.js.map"
+    "main.bcf3cd85.css.map": "/Web3-Hub-Website/static/css/main.bcf3cd85.css.map",
+    "main.8972adba.js.map": "/Web3-Hub-Website/static/js/main.8972adba.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea77320c.css",
-    "static/js/main.a5b52b70.js"
+    "static/css/main.bcf3cd85.css",
+    "static/js/main.8972adba.js"
   ]
 }
