@@ -45,11 +45,11 @@
     cursor: pointer;
 }
 
-.show-answer {
+/* .show-answer {
     background-color: red;
     height: 50px;
     width: 100%;
-}
+} */
 
 
 @media only screen and (max-width: 768px) {
