@@ -1,7 +1,7 @@
 
 .home-page {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/public/Images/Background.svg') ;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../Images/Background.svg') ;
     background-size: cover;
 }
 
