@@ -14,7 +14,6 @@
     display: flex;
     flex-direction: column;
     max-height: 500px;
-    /* background-color: green; */
     justify-content: space-between;
 }
 
@@ -50,7 +49,6 @@
     flex-direction: column;
     width: 100%;
     color: var(--White);
-    /* background-color: red; */
 }
 
 .send-request {
@@ -73,10 +71,10 @@
     margin-bottom: 40px;
     font-size: 1rem;
     box-sizing: border-box;
+    padding: 10px;
 }
 .email-input:focus {
     outline: none;
-    padding: 10px;
 }
 
 .textarea-label {

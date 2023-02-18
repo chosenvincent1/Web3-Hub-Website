@@ -13,27 +13,45 @@ const Team = ()=> {
             <div className="team-container">
                 <div className="each-team-container">
                     <img src={member} alt="Web Developer"/>
-                    <h3>Web Developer</h3>
+                    <p>
+                        <span className="team-name">Vincent Chosen</span> <br/>
+                        <span className="team-role">Web Developer</span>
+                    </p>
                 </div>
                 <div className="each-team-container">
                     <img src={member} alt="Web Developer"/>
-                    <h3>Web Developer</h3>
+                    <p>
+                        <span className="team-name">Vincent Chosen</span> <br/>
+                        <span className="team-role">Web Developer</span>
+                    </p>
                 </div>
                 <div className="each-team-container">
                     <img src={member} alt="Web Developer"/>
-                    <h3>Web Developer</h3>
+                    <p>
+                        <span className="team-name">Vincent Chosen</span> <br/>
+                        <span className="team-role">Web Developer</span>
+                    </p>
                 </div>
                 <div className="each-team-container">
                     <img src={member} alt="Web Developer"/>
-                    <h3>Web Developer</h3>
+                    <p>
+                        <span className="team-name">Vincent Chosen</span> <br/>
+                        <span className="team-role">Web Developer</span>
+                    </p>
                 </div>
                 <div className="each-team-container">
                     <img src={member} alt="Web Developer"/>
-                    <h3>Web Developer</h3>
+                    <p>
+                        <span className="team-name">Vincent Chosen</span> <br/>
+                        <span className="team-role">Web Developer</span>
+                    </p>
                 </div>
                 <div className="each-team-container">
                     <img src={member} alt="Web Developer"/>
-                    <h3>Web Developer</h3>
+                    <p>
+                        <span className="team-name">Vincent Chosen</span> <br/>
+                        <span className="team-role">Web Developer</span>
+                    </p>
                 </div>
             </div>
         </div>

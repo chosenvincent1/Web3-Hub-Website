@@ -22,7 +22,6 @@ const Navbar = ()=> {
                 elevation={0}
                 position='relative'
                 sx={{
-                    // padding: '0px 10px',
                     background: '#f5f5f5'
                 }}
             >
