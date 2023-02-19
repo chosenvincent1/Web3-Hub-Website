@@ -11,48 +11,37 @@ const Team = ()=> {
                 <h2>Meet our awesome team of instructors</h2>
             </div>
             <div className="team-container">
-                <div className="each-team-container">
+                
+                <figure className="each-team-container">
                     <img src={member} alt="Web Developer"/>
-                    <p>
-                        <span className="team-name">Vincent Chosen</span> <br/>
-                        <span className="team-role">Web Developer</span>
-                    </p>
-                </div>
-                <div className="each-team-container">
+                    <figcaption className="team-name">Vincent Chosen</figcaption>
+                    <figcaption className="team-role">Web Developer</figcaption>
+                </figure>
+                <figure className="each-team-container">
                     <img src={member} alt="Web Developer"/>
-                    <p>
-                        <span className="team-name">Vincent Chosen</span> <br/>
-                        <span className="team-role">Web Developer</span>
-                    </p>
-                </div>
-                <div className="each-team-container">
+                    <figcaption className="team-name">Vincent Chosen</figcaption>
+                    <figcaption className="team-role">Web Developer</figcaption>
+                </figure>
+                <figure className="each-team-container">
                     <img src={member} alt="Web Developer"/>
-                    <p>
-                        <span className="team-name">Vincent Chosen</span> <br/>
-                        <span className="team-role">Web Developer</span>
-                    </p>
-                </div>
-                <div className="each-team-container">
+                    <figcaption className="team-name">Vincent Chosen</figcaption>
+                    <figcaption className="team-role">Web Developer</figcaption>
+                </figure>
+                <figure className="each-team-container">
                     <img src={member} alt="Web Developer"/>
-                    <p>
-                        <span className="team-name">Vincent Chosen</span> <br/>
-                        <span className="team-role">Web Developer</span>
-                    </p>
-                </div>
-                <div className="each-team-container">
+                    <figcaption className="team-name">Vincent Chosen</figcaption>
+                    <figcaption className="team-role">Web Developer</figcaption>
+                </figure>
+                <figure className="each-team-container">
                     <img src={member} alt="Web Developer"/>
-                    <p>
-                        <span className="team-name">Vincent Chosen</span> <br/>
-                        <span className="team-role">Web Developer</span>
-                    </p>
-                </div>
-                <div className="each-team-container">
+                    <figcaption className="team-name">Vincent Chosen</figcaption>
+                    <figcaption className="team-role">Web Developer</figcaption>
+                </figure>
+                <figure className="each-team-container">
                     <img src={member} alt="Web Developer"/>
-                    <p>
-                        <span className="team-name">Vincent Chosen</span> <br/>
-                        <span className="team-role">Web Developer</span>
-                    </p>
-                </div>
+                    <figcaption className="team-name">Vincent Chosen</figcaption>
+                    <figcaption className="team-role">Web Developer</figcaption>
+                </figure>
             </div>
         </div>
     )

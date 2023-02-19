@@ -7,7 +7,9 @@ import {
     IconButton,
 } from "@mui/material";
 import { Link } from "react-router-dom";
-import { FaBars } from 'react-icons/fa'
+import { FaBars } from 'react-icons/fa';
+
+import logo from '../Images/Web3-Hub-Logo.svg';
 
 const DrawerComponent = () => {
     const styles = {
@@ -85,7 +87,7 @@ const DrawerComponent = () => {
                         </ListItemText>
                     </ListItem>
                 </List>
-                <img src="../Images/Web3-Hub-Logo.svg" alt="Web3 Hub Logo" className="drawer-logo" />
+            <img src={logo} alt="Web3 Hub Logo" className="drawer-logo" />
             </Drawer>
             <IconButton
                 sx={styles.iconBtn}
