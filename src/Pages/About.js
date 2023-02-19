@@ -2,6 +2,7 @@ import React from 'react';
 import '../Styles/About.css';
 
 import aboutImage from '../Images/about-image.png';
+import aboutImageMobile from '../Images/about-image-mobile.svg';
 
 const About = ()=> {
     return (
@@ -18,6 +19,7 @@ const About = ()=> {
                     </p>
                 </div>
                 <div className='about-img-container'>
+                    <img src={aboutImageMobile} alt='About' className='about-img-mobile' />
                     <img src={aboutImage} alt='About' className='about-img' />
                 </div>
             </div>

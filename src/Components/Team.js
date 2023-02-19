@@ -1,7 +1,10 @@
 import React from "react";
 import '../Styles/Team.css';
 
-import member from '../Images/Member.svg';
+// import member from '../Images/Member.svg';
+// import team2 from '../Images/team2.svg';
+// import team3 from '../Images/team3.svg';
+import team4 from '../Images/team4.svg';
 
 const Team = ()=> {
     return (
@@ -13,32 +16,32 @@ const Team = ()=> {
             <div className="team-container">
                 
                 <figure className="each-team-container">
-                    <img src={member} alt="Web Developer"/>
+                    <img src={team4} alt="Web Developer"/>
                     <figcaption className="team-name">Vincent Chosen</figcaption>
                     <figcaption className="team-role">Web Developer</figcaption>
                 </figure>
                 <figure className="each-team-container">
-                    <img src={member} alt="Web Developer"/>
+                    <img src={team4} alt="Web Developer"/>
                     <figcaption className="team-name">Vincent Chosen</figcaption>
                     <figcaption className="team-role">Web Developer</figcaption>
                 </figure>
                 <figure className="each-team-container">
-                    <img src={member} alt="Web Developer"/>
+                    <img src={team4} alt="Web Developer"/>
                     <figcaption className="team-name">Vincent Chosen</figcaption>
                     <figcaption className="team-role">Web Developer</figcaption>
                 </figure>
                 <figure className="each-team-container">
-                    <img src={member} alt="Web Developer"/>
+                    <img src={team4} alt="Web Developer"/>
                     <figcaption className="team-name">Vincent Chosen</figcaption>
                     <figcaption className="team-role">Web Developer</figcaption>
                 </figure>
                 <figure className="each-team-container">
-                    <img src={member} alt="Web Developer"/>
+                    <img src={team4} alt="Web Developer"/>
                     <figcaption className="team-name">Vincent Chosen</figcaption>
                     <figcaption className="team-role">Web Developer</figcaption>
                 </figure>
                 <figure className="each-team-container">
-                    <img src={member} alt="Web Developer"/>
+                    <img src={team4} alt="Web Developer"/>
                     <figcaption className="team-name">Vincent Chosen</figcaption>
                     <figcaption className="team-role">Web Developer</figcaption>
                 </figure>
