@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import '../Styles/Faq.css';
 import {
     FaPlus,
@@ -10,10 +10,6 @@ import faq from '../Images/faq-image.svg';
 
 const Faq = ()=> {
     
-    useEffect(()=> {
-        console.log(window.innerWidth)
-    }, [])
-    
 
     const [click, setClick] = useState(false)
 
@@ -21,7 +17,6 @@ const Faq = ()=> {
         setClick(!click)
     }
 
-    // console.log(click);
 
     return (
         <div className='faq'>

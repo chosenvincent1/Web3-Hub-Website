@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../Styles/Contact.css';
 import { 
     FaFacebook, 
@@ -8,6 +8,32 @@ import {
 } from 'react-icons/fa';
 
 const Contact = ()=> {
+
+    const [data, setData] = useState({email: "", text: ""});
+    const [message, setMessage] = useState([]);
+
+    const handleChange = (event)=> {
+        setData(prevData => {
+            return {
+                ...prevData,
+                [event.target.name]: event.target.value
+            }
+        })
+    }
+  
+    const handleSubmit = (event)=> {
+        event.preventDefault();
+        setMessage(prevMessage => {
+            return prevMessage.concat(data)
+        });
+
+        setData({email: "", text: ""});
+    }
+
+    // console.log(message)
+
+
+
     return (
         <div className='contact'>
             <div className='contact-us-container'>
@@ -23,13 +49,27 @@ const Contact = ()=> {
                 </div>
                 <p className='copywrite'>Copywrite &copy; Web3 2020</p>
             </div>
-            <form className='form'>
+            <form className='form' onSubmit={handleSubmit}>
                 <p className='send-request'>Send us a Message or Request</p>
+
                 <label htmlFor='email' className='email-label'>Email</label>
-                <input type='email' id='email' className='email-input'/>
+                <input 
+                    type='email' 
+                        id='email' 
+                        className='email-input'
+                        name='email'
+                        value={data.email}
+                        onChange={handleChange}
+                    />
 
                 <label htmlFor='textarea' className='textarea-label'>Message</label>
-                <textarea id='textarea' className='textarea' />
+                <textarea
+                    id='textarea' 
+                    className='textarea'
+                    name='text'
+                    value={data.text}
+                    onChange={handleChange}
+                />
 
                 <div className='send-btn-container'>
                     <p className='mobile-copywrite'>Copywrite &copy; Web3 2020</p>
