@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Web3-Hub-Website/static/css/main.bcf3cd85.css",
-    "main.js": "/Web3-Hub-Website/static/js/main.8972adba.js",
-    "static/media/Member.svg": "/Web3-Hub-Website/static/media/Member.c96e1e4305da970ac5e2a9d37562be79.svg",
+    "main.css": "/Web3-Hub-Website/static/css/main.ccbe5fe1.css",
+    "main.js": "/Web3-Hub-Website/static/js/main.69c65cfb.js",
+    "static/media/about-image-mobile.svg": "/Web3-Hub-Website/static/media/about-image-mobile.25103d54d8b692b060d055a0eba24242.svg",
     "static/media/about-image.png": "/Web3-Hub-Website/static/media/about-image.b1af8ed4f238b6d365a4.png",
+    "static/media/team4.svg": "/Web3-Hub-Website/static/media/team4.d02a8f8713ee174eeaefa856a56e4d50.svg",
     "static/media/Footer-Logo.svg": "/Web3-Hub-Website/static/media/Footer-Logo.16ec1afeee6cf37a5feaabb73d3e594c.svg",
     "static/media/Web3-Hub-Logo.svg": "/Web3-Hub-Website/static/media/Web3-Hub-Logo.3af9b195490b221bc0bba56996632198.svg",
     "static/media/Inter-SemiBold.ttf": "/Web3-Hub-Website/static/media/Inter-SemiBold.4d56bb21f2399db8ad48.ttf",
@@ -15,11 +16,11 @@
     "static/media/Tether.svg": "/Web3-Hub-Website/static/media/Tether.bc8bdeb8d64404578fd1d34620ba7562.svg",
     "static/media/Ethereum.svg": "/Web3-Hub-Website/static/media/Ethereum.c5ec9c35b5752189b2c91bec3ae0ffb7.svg",
     "index.html": "/Web3-Hub-Website/index.html",
-    "main.bcf3cd85.css.map": "/Web3-Hub-Website/static/css/main.bcf3cd85.css.map",
-    "main.8972adba.js.map": "/Web3-Hub-Website/static/js/main.8972adba.js.map"
+    "main.ccbe5fe1.css.map": "/Web3-Hub-Website/static/css/main.ccbe5fe1.css.map",
+    "main.69c65cfb.js.map": "/Web3-Hub-Website/static/js/main.69c65cfb.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcf3cd85.css",
-    "static/js/main.8972adba.js"
+    "static/css/main.ccbe5fe1.css",
+    "static/js/main.69c65cfb.js"
   ]
 }
