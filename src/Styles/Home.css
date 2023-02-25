@@ -69,26 +69,28 @@
 }
 
 
+@media only screen and (max-width: 768px) {
+    .coin-image {
+        display: none;
+    }
+}
 
 /* MOBILE VIEW */
 @media only screen and (max-width: 600px) {
-    /* .home-page {
-        height: fit-content;
-    } */
 
     .home-text-container {
         padding: 50px 20px;
     }
 
     .home-lg-text {
-        font-size: 40px;
+        font-size: 2rem;
     } 
 
     .home-sm-text {
         font-size: 16px;
     }
 
-    .bitcoin {
+    /* .bitcoin {
         top: 5%;
         left: 5%;
         height: 10%;
@@ -108,5 +110,14 @@
         top: 10%;
         right: 5%;
         height: 20%;
+    } */
+}
+
+@media only screen and (max-height: 400px) {
+    .home-page {
+        height: auto;
     }
+    .home-lg-text {
+        font-size: 3rem;
+    } 
 }

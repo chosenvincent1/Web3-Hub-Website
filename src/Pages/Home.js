@@ -15,6 +15,7 @@ import tether from '../Images/Tether.svg';
 
 
 const Home = ()=> {
+    console.log(window.innerHeight)
     return (
         <>
         <div className='home-page'>
