@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Web3-Hub-Website/static/css/main.ccbe5fe1.css",
-    "main.js": "/Web3-Hub-Website/static/js/main.69c65cfb.js",
+    "main.css": "/Web3-Hub-Website/static/css/main.9b4c1046.css",
+    "main.js": "/Web3-Hub-Website/static/js/main.2bcd8cf1.js",
     "static/media/about-image-mobile.svg": "/Web3-Hub-Website/static/media/about-image-mobile.25103d54d8b692b060d055a0eba24242.svg",
     "static/media/about-image.png": "/Web3-Hub-Website/static/media/about-image.b1af8ed4f238b6d365a4.png",
     "static/media/team4.svg": "/Web3-Hub-Website/static/media/team4.d02a8f8713ee174eeaefa856a56e4d50.svg",
@@ -16,11 +16,11 @@
     "static/media/Tether.svg": "/Web3-Hub-Website/static/media/Tether.bc8bdeb8d64404578fd1d34620ba7562.svg",
     "static/media/Ethereum.svg": "/Web3-Hub-Website/static/media/Ethereum.c5ec9c35b5752189b2c91bec3ae0ffb7.svg",
     "index.html": "/Web3-Hub-Website/index.html",
-    "main.ccbe5fe1.css.map": "/Web3-Hub-Website/static/css/main.ccbe5fe1.css.map",
-    "main.69c65cfb.js.map": "/Web3-Hub-Website/static/js/main.69c65cfb.js.map"
+    "main.9b4c1046.css.map": "/Web3-Hub-Website/static/css/main.9b4c1046.css.map",
+    "main.2bcd8cf1.js.map": "/Web3-Hub-Website/static/js/main.2bcd8cf1.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccbe5fe1.css",
-    "static/js/main.69c65cfb.js"
+    "static/css/main.9b4c1046.css",
+    "static/js/main.2bcd8cf1.js"
   ]
 }
