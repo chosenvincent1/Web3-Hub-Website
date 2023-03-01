@@ -8,7 +8,6 @@ import {
 } from 'react-icons/fa';
 
 const Contact = ()=> {
-
     const [data, setData] = useState({email: "", text: ""});
     const [message, setMessage] = useState([]);
 
