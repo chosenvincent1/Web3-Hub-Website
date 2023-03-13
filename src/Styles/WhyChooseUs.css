@@ -1,0 +1,43 @@
+.why-choose-us {
+    background-color: var(--white);
+    padding: 50px;
+    font-family: 'Inter';
+}
+
+.why-choose-us > h1, .why-choose-us > p {
+    text-align: center;
+}
+.why-choose-us > h1 {
+    margin-bottom: 20px;
+}
+.why-choose-us > p {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    max-width: 700px;
+}
+
+.reasons-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.reason {
+    margin-right: 20px;
+    margin-bottom: 50px;
+    max-width: 250px;
+}
+
+.reason > h2 {
+    margin-bottom: 10px;
+}
+
+/* MOBILE VIEW */
+@media only screen and (max-width: 600px) {
+    .reason {
+        margin-right: 20px;
+        margin-bottom: 50px;
+        max-width: 100%;
+    }
+}

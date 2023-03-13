@@ -15,9 +15,10 @@ const Footer = ()=> {
                     <img src={footerWeb3Hub} alt="Logo" className="second-logo" />
                 </div>
             </div>
+            <p className="copy-footer">&copy; <span className='web3hub-footer'>Web3 hub</span> 2023</p>
             <div className="footer-text-container">
-                <p>WEB3 HUB is a professional consultancy company which aims to expand the knowledge</p>
-                <p>welcome to web3 hub</p>
+                <p> All right reserved. Trademarks nd brands are the properties of their respective owners</p>
+                <p>Privacy policy legal</p>
             </div>
         </div>
     )

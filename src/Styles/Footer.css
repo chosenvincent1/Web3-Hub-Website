@@ -27,13 +27,20 @@
 .second-logo {
     height: 50px;
 }
-
+.copy-footer {
+    color: #ccc;
+    font-family: 'Inter';
+    font-size: 18px;
+}
 .footer-text-container {
     display: flex;
     justify-content: space-between;
     color: #ccc;
     font-family: 'Inter';
     font-size: 18px;
+}
+.web3hub-footer {
+    text-transform: uppercase;
 }
 
 @media only screen and (max-width: 768px) {

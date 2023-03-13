@@ -24,21 +24,24 @@
     color: var(--white);
     padding: 20px;
     border-radius: 10px;
-    margin-right: 20px;
+    margin-right: 50px;
+    height: fit-content;
+    max-width: 600px;
 }
 
 .text-title {
     margin-bottom: 20px;
+    font-size: 3rem;
 }
 
 .about-body {
-    line-height: 25px;
+    line-height: 35px;
     text-align: justify;
+    font-size: 1.2rem;
 }
 
 .about-img {
     width: 300px;
-    height: auto;
 }
 .about-img-mobile {
     display: none;
@@ -55,6 +58,7 @@
     }
     .about-text-container {
         margin-right: 0;
+        max-width: 100%;
     }
 
     .about-img {

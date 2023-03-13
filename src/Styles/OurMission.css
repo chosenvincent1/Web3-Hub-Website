@@ -1,0 +1,22 @@
+
+.our-mission {
+    background-color: var(--white);
+    padding: 50px;
+    text-align: center;
+    font-family: 'Inter';
+}
+
+.our-mission > h1 {
+    margin-bottom: 20px;
+}
+
+.our-mission > p {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+@media only screen and (max-width: 600px) {
+    .our-mission > p {
+        max-width: 100%;
+    }
+}

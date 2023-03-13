@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 import '../Styles/Contact.css';
 import { 
     FaFacebook, 
@@ -8,7 +9,7 @@ import {
 } from 'react-icons/fa';
 
 const Contact = ()=> {
-    const [data, setData] = useState({email: "", text: ""});
+    const [data, setData] = useState({email: "", message: ""});
     const [message, setMessage] = useState([]);
 
     const handleChange = (event)=> {
@@ -26,10 +27,15 @@ const Contact = ()=> {
             return prevMessage.concat(data)
         });
 
-        setData({email: "", text: ""});
-    }
+        emailjs.sendForm('service_i0gog9a', 'template_7z98v2d', event.target, 'uzQe2u-m8xPgpc0xW')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
 
-    // console.log(message)
+        setData({email: "", message: ""});
+    }
 
 
 
@@ -46,10 +52,11 @@ const Contact = ()=> {
                         <FaTelegram className='social-icons' />
                     </div>
                 </div>
-                <p className='copywrite'>Copywrite &copy; Web3 2020</p>
+                <p className='copywrite'>Copywrite &copy; <span className='web3hub-copywrite'>Web3 hub</span> 2023</p>
             </div>
             <form className='form' onSubmit={handleSubmit}>
-                <p className='send-request'>Send us a Message or Request</p>
+                <p className='send-request'>Send us a message or request</p>
+                <p className='contact-us-description'>If you're interested in learning more about our services or have a project in mind, please don't hesitate to contact us. We'd be happy to discuss how we can help you leverage the power of technology and education to achieve your goals.</p>
 
                 <label htmlFor='email' className='email-label'>Email</label>
                 <input 
@@ -65,13 +72,13 @@ const Contact = ()=> {
                 <textarea
                     id='textarea' 
                     className='textarea'
-                    name='text'
-                    value={data.text}
+                    name='message'
+                    value={data.message}
                     onChange={handleChange}
                 />
 
                 <div className='send-btn-container'>
-                    <p className='mobile-copywrite'>Copywrite &copy; Web3 2020</p>
+                    <p className='mobile-copywrite'>Copywrite &copy; <span className='web3hub-copywrite'>Web3 hub</span> 2023</p>
                     <button className='send-btn'>Send</button>
                 </div> 
             </form>
