@@ -18,30 +18,6 @@ import tether from '../Images/Tether.svg';
 
 
 const Home = ()=> {
-    // const [iconPositions, setIconPositions] = useState({
-    //     bitcoin: {top: '50%', left: '50%', },
-    //     dollar: {top: '50%', left: '50%', },
-    //     ethereum: {top: '50%', left: '50%', },
-    //     tether: {top: '50%', left: '50%', }
-    // })
-
-    // const getRandomPosition = () => {
-    //     const x = Math.floor(Math.random() * 80 + 10) + '%';
-    //     const y = Math.floor(Math.random() * 80 + 10) + '%';
-    //     return { top: y, left: x };
-    //   };
-    
-    //   useEffect(() => {
-    //     const intervalId = setInterval(() => {
-    //       setIconPositions({
-    //         bitcoin: getRandomPosition(),
-    //         dollar: getRandomPosition(),
-    //         ethereum: getRandomPosition(),
-    //         tether: getRandomPosition(),
-    //       });
-    //     }, 2000);
-    //     return () => clearInterval(intervalId);
-    //   }, []);
 
       
     return (
